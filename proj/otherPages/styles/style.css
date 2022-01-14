@@ -1,0 +1,93 @@
+hr.new1 {
+  border-top: 1px solid black;
+}
+ul.menu{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:05396b;
+	overflow:hidden;
+}
+li.menu{
+	float:left;
+}
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+	font-family:courier,arial,helvetica;
+	
+}
+li a:hover{
+	background-color:pink;
+}
+.search-form{
+	margin-top:10px;
+	float:right;
+	margin-right:25px;
+	
+}
+.p1{
+	font-family:courier,arial,helvetica;
+	color:white;
+	font-size:17px;
+	padding-left:20px;
+	padding-top:30px;
+	
+}
+.social ul{
+	
+	position:absolute;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	display:flex;
+	padding-top:10px
+
+}
+
+.social ul li{
+	
+	list-style:none;
+	margin:0;
+	
+}
+
+form div            { margin-bottom: 10px; }
+form div.clear      { margin-bottom: 10px; }
+input,lable	        { cursor: pointer; }
+
+form input [type="radio"] { float: left; width: 1px; margin-right: 10px;}
+form lable                { float: left; width: 1px; }
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+	.form {
+		margin: 10px;
+		width: 210px;
+	}
+	.form label{
+		display: inline-block;
+		text-align: center;
+		float: left;
+	}
+	.form input{  
+		display: inline-block;
+		text-align: left;
+		float: center;
+	}
+
+.ottpolicy {
+    max-width: 560px;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;

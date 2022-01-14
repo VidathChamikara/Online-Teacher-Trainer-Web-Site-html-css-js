@@ -1,0 +1,20 @@
+.answers label {
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  margin: top;
+  margin: auto;
+  width: 250px;
+}
+
+.answers {
+    width:899px;
+	margin-top: -335px;
+}
+
+.answers input[type="radio"] {
+  height: 20px;
+  line-height: 20px;
+  vertical-align: bottom;
+  width: 20px;
+}

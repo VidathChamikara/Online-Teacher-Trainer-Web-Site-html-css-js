@@ -1,0 +1,142 @@
+<DOCTYPE html>
+<html>
+ <head>
+  <title>Online Teacher Training Website</title>
+  <script src="js/js.js"></script>
+  <link rel="stylesheet" href="styles/payment.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+  body {
+ background-color:5cdb94
+}
+ button{
+    font-size:20px;
+    color:white;
+    background-color:orange;	
+	font-family:courier,arial,helvetica;
+ }
+ footer{
+    background-color:05396b;
+	height:275px;
+ }
+ 
+  </style>
+	
+ </head>
+   <header>
+        <img src="images/logo.png" align="left" width="125" height="125">
+		 <img src="images/user.png" align="right" width="125" height="125"><br><br><br><br><br><br><br>
+  
+   <ul class="menu">
+	 <li class="menu"><a href="Homepage.html">Home</a></li>
+	 <li class="menu"><a href="log-reg/registration.html">Registration</a></li>
+	 <li class="menu"><a href="log-reg/login.html">Login</a></li>
+	 <li class="menu"><a href="otherPages/ContactUs.html">ContactUs</a></li>
+	     <div class="search-form" >
+			  <input type="text" placeholder="Type to Search">
+			  <button>Search</button>
+		 </div>
+   
+   </ul><br>
+        
+  </header> 
+  
+   <body>
+   <center>
+ <div class="wrapper">
+  <div>
+   <div >
+      <h2>Payment Form</h2>
+	   <form method="post" action="payment.php"> 
+	    <h4>Acoount</h4>
+		 <div class="input-group">
+		   <div class="input-box">
+		      <input type="text" placeholder="First name" name="fname" required class="name">
+		      <i class="fa fa-user icon"></i>
+		   </div> 
+			<div class="input-box">
+			 <input type="text" placeholder="Second Name" name="sname"required class="name">
+			  <i class="fa fa-user icon"></i>
+			</div>
+		   </div>
+		  </div>
+		 </div>
+		 <div class="input-group">
+		  <div class="input-box">
+		   <input type="email" placeholder="Email Address" required class="name">
+		    <i class="fa fa-envelope"></i>
+		  </div>
+		 </div>
+		 <div class="input-group">
+		  <div class="inbox-box"></div>
+		   <h4>Date of Birth</h4>
+		   <input type="text" placeholder="DD/MM/YYYY" class="dob">
+		   
+		 </div>	 
+		  <div class="input-group">
+		   <div class="input-box">
+		     <h4>Payment Details</h4>
+			 <input type="radio" name="pay" value="c" id="bc1" checked class="radio">
+			 <label for="bc1"><span><i class="fa fa-fa-cc-visa"></i>Credit Card</span></label>
+		   <input type="radio" name="pay" value="p" id="bc1" class="radio">
+            <label for="bc2"><span><i class="fa fa-cc-paypal"></i>paypal</span></label>	   			
+		  </div>
+		   </div> 
+		     <div class="input-group">
+		         <div class="input-box">
+		          <input type="tel" placeholder="Card Number" required class="name">
+		          <i class="fa fa-credit-card icon"></i>
+		         </div>
+		     </div>
+			 <div class="input-group">
+		         <div class="input-box">
+		           <input type="tel" placeholder="Card CVC" required class="name">
+		           <i class="fa fa-user icon"></i>
+		          </div>
+				  <div class="input-box">
+				  
+		     </div><br>
+			 
+			 <input type="checkbox" id="confirmation" name="confirmation" onclick="enableButton()">
+			 <label class="l1">Please Confirm Your details</label>
+			 <div class="input-group">
+			   <div class="input-box"><br>
+			     <button id="bttn" name="bttn" disabled>
+				 Pay Now</button>
+			   </div>	  
+			 </div>
+	   </form>
+   </div>
+   </div>
+   </center>
+ </body>
+
+	
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <br><br><br><br><br>
+<footer>
+    <p class="p1"><a href="otherPages/TermsOfService.html">Terms</a></P>
+	<p class="p1"><a href="otherPages/Privacyandpolicy.html">Privacy And Policy</a></p>
+	<p class="p1"><a href="otherPages/AboutUs.html">About Us</a></p>
+	<div class="social">
+	    <ul>
+		  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+		</ul>
+	   
+	</div>
+</footer>
+   
+  
+</html>

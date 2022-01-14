@@ -1,0 +1,108 @@
+<DOCTYPE html>
+<html>
+ <head>
+  <title>Contact Us</title> 
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+  body {
+ background-color:5cdb94
+}
+ button{
+    font-size:20px;
+    color:white;
+    background-color:orange;	
+	font-family:courier,arial,helvetica;
+ }
+ footer{
+    background-color:05396b;
+	height:275px;
+ }
+ 
+ input[type=reset] {
+  background-color: 5cdb94;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  </style>
+	
+ </head>
+   <header>
+        <img src="images/logo.png" align="left" width="125" height="125">
+		 		<a href="UserAccountPage.html"><img src="images/user.png" align="right" width="125" height="125"></a><br><br><br><br><br><br><br>
+  
+   <ul class="menu">
+	 <li class="menu"><a href=" href="../Homepage.html">Home</a></li>
+	 <li class="menu"><a href="../log-reg/registration.html">Registration</a></li>
+	 <li class="menu"><a href="../log-reg/login.html"">Login</a></li>
+	 <li class="menu"><a href="#">ContactUs</a></li>
+	     <div class="search-form" >
+			  <input type="text" placeholder="Type to Search">
+			  <button>Search</button>
+		 </div>
+   
+   </ul>
+        
+  </header> 
+  
+   <table bgcolor="5cdb94" border="0" align="center" width ="40%">
+<tr> <br><br>
+<th> <h1 style="font-family:verdana;"> Contact Us</h1><br>  
+
+ <div class="form">
+ <form action="contact.php" method="post">
+ <form action="#" target="_self" method="GET" onsubmit="return checkPasswords()">
+ <div class="elem-group">
+     <label>Full Name*</label><br> 
+	 <input type="text" id="fname" name="fname" style="width:500px;" placeholder="Full name " required><br><br>
+	 </div>
+	 <div class="elem-group">
+	 <label>Email*</label> <br> 
+	 <input type="email" id="emailAdd" name"emailAdd" style="width:500px;" pattern="[a-zA-z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" placeholder="Email address " required><br><br>
+	 </div>
+	 <div class="elem-group">
+	<label> Message*</label> <br>  
+	 <textarea id="addr" name="addr" rows="10" cols="50" style="width:500px;" placeholder="Describe your needs " required></textarea><br><br>
+	 </div>
+	</div>
+	<form action="/action_page.php">
+	 <input type="reset" value="Never mind">
+	 <input type="submit" class="button" value="Submit">
+    </form>
+	</form>
+	<br><br>
+	</th>
+	</tr>
+	</table>
+<footer>
+    <p class="p1"><a href="TermsOfService.html">Terms</a></P>
+	<p class="p1"><a href="Privacyandpolicy.html">Privacy And Policy</a></p>
+	<p class="p1"><a href="AboutUs.html">About Us</a></p>
+	<div class="social">
+	    <ul>
+		  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+		</ul>
+	   
+	</div>
+</footer>
+   
+  
+</html>
